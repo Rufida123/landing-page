@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRMi – Manage Every Customer Relationship</title>
+<meta name="description" content="CRMi is a CRM platform that helps you build lasting customer relationships, increase sales and drive growth. 14-day free trial, no credit card required.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0e12" media="(prefers-color-scheme: dark)">
+<!-- Fonts: Plus Jakarta Sans (headings) · Inter (text) · Fraunces italic (accent lines only) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- NAV -->
+<header class="nav" id="top">
+  <div class="container nav-inner">
+    <a href="#top" class="brand" aria-label="CRMi home">CRMi</a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#product" class="nav-link">Product</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#testimonials" class="nav-link">Customers</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <!-- Theme switch: CSS-only (radio inputs). Auto follows the system setting. -->
+      <fieldset class="theme">
+        <legend class="sr">Color theme</legend>
+        <input class="sr" type="radio" name="theme" id="th-auto" checked><label for="th-auto" title="Match system">Auto</label>
+        <input class="sr" type="radio" name="theme" id="th-light"><label for="th-light" title="Light"><span aria-hidden="true">☀</span><span class="sr">Light</span></label>
+        <input class="sr" type="radio" name="theme" id="th-dark"><label for="th-dark" title="Dark"><span aria-hidden="true">☾</span><span class="sr">Dark</span></label>
+      </fieldset>
+      <a href="dashboard.html" class="btn btn-secondary btn-sm hide-sm">Sign In</a>
+      <a href="#pricing" class="btn btn-primary btn-sm">Start Free Trial</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">CRM built for growing teams</span>
+      <h1>Manage every <em class="accent">customer relationship</em></h1>
+      <p class="lead">A powerful CRM platform designed to help you build lasting customer relationships, increase sales and drive business growth.</p>
+      <div class="hero-actions">
+        <a href="#pricing" class="btn btn-primary btn-lg">Start Free Trial</a>
+        <a href="#product" class="btn btn-secondary btn-lg">See how it works</a>
+      </div>
+      <p class="hero-note">14-day free trial · No credit card required · Cancel anytime</p>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="mock">
+        <div class="mock-bar"><i></i><i></i><i></i></div>
+        <div class="mock-body">
+          <div class="mock-side"><b></b><b></b><b></b><b></b></div>
+          <div class="mock-main">
+            <div class="mock-kpis">
+              <div><small>Revenue</small><strong>$2.46M</strong><em>↑ 12.5%</em></div>
+              <div><small>Deals won</small><strong>348</strong><em>↑ 8.3%</em></div>
+              <div><small>Win rate</small><strong>64.2%</strong><em>↑ 3.1%</em></div>
+            </div>
+            <svg viewBox="0 0 400 130" class="mock-chart" preserveAspectRatio="none">
+              <polyline points="0,100 40,70 80,85 120,50 160,45 200,30 240,60 280,95 320,65 360,80 400,60" fill="none" stroke="#ffa726" stroke-width="3"/>
+              <polyline points="0,115 40,85 80,100 120,70 160,72 200,55 240,75 280,110 320,82 360,95 400,78" fill="none" stroke="#667eea" stroke-width="3"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="float float-a"><span>💼</span> Deal won · $85,000</div>
+      <div class="float float-b"><span>📈</span> Pipeline up 12.5%</div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats" aria-label="CRMi in numbers">
+  <div class="container stats-grid">
+    <div class="stat reveal"><strong>50K+</strong><span>Active users</span></div>
+    <div class="stat reveal"><strong>98%</strong><span>Satisfaction rate</span></div>
+    <div class="stat reveal"><strong>$2.5M+</strong><span>Revenue tracked</span></div>
+    <div class="stat reveal"><strong>24/7</strong><span>Support available</span></div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <div class="container">
+    <header class="section-head reveal">
+      <h2>Powerful <em class="accent">features</em></h2>
+      <p>Everything you need to manage customer relationships effectively</p>
+    </header>
+    <div class="feature-grid">
+      <article class="card reveal"><div class="icon">👥</div><h3>Contact Management</h3><p>Organize all your customer information in one place with powerful search, filtering and custom fields.</p></article>
+      <article class="card reveal"><div class="icon">💼</div><h3>Sales Pipeline</h3><p>Visualize your sales process, track deals and forecast revenue with intuitive pipeline stages.</p></article>
+      <article class="card reveal"><div class="icon">📈</div><h3>Analytics &amp; Reporting</h3><p>Real-time dashboards and customizable reports give you clear insight into performance.</p></article>
+      <article class="card reveal"><div class="icon">🤝</div><h3>Team Collaboration</h3><p>Share notes, assign tasks and keep everyone aligned without leaving CRMi.</p></article>
+      <article class="card reveal"><div class="icon">🔌</div><h3>Integrations</h3><p>Connect 100+ tools including email and calendar, with full API access on Enterprise.</p></article>
+      <article class="card reveal"><div class="icon">📱</div><h3>Mobile App</h3><p>Native iOS and Android apps with offline access and push notifications.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT TABS (CSS-only: radio inputs, arrow keys work natively) -->
+<section class="section section-alt" id="product">
+  <div class="container">
+    <header class="section-head reveal">
+      <h2>See CRMi <em class="accent">in action</em></h2>
+      <p>Explore the tools your team will use every day</p>
+    </header>
+    <div class="tabs reveal">
+      <div class="tab-list" role="radiogroup" aria-label="Product areas">
+        <input class="sr" type="radio" name="product" id="tab1" checked><label for="tab1">Contacts</label>
+        <input class="sr" type="radio" name="product" id="tab2"><label for="tab2">Pipeline</label>
+        <input class="sr" type="radio" name="product" id="tab3"><label for="tab3">Analytics</label>
+        <input class="sr" type="radio" name="product" id="tab4"><label for="tab4">Automation</label>
+      </div>
+
+      <div class="tab-panel" id="p1">
+        <div class="panel-copy">
+          <h3>One home for every customer</h3>
+          <p>Centralize all customer information in one powerful database. Track every interaction and keep your team synchronized.</p>
+          <ul class="checks"><li>Store unlimited customer data</li><li>Track interaction history</li><li>Add custom fields</li><li>Segmentation and grouping</li></ul>
+        </div>
+        <div class="panel-img"><img src="assets/HeroHomepage.webp" alt="Contact management screen" width="900" height="600" loading="lazy"></div>
+      </div>
+      <div class="tab-panel" id="p2">
+        <div class="panel-copy">
+          <h3>See your whole sales process at a glance</h3>
+          <p>Drag and drop deals through stages, forecast revenue and spot bottlenecks before they cost you deals.</p>
+          <ul class="checks"><li>Customizable pipeline stages</li><li>Deal tracking and forecasting</li><li>Automated workflows</li><li>Revenue projections</li></ul>
+        </div>
+        <div class="panel-img"><img src="assets/Analytics.webp" alt="Sales pipeline board" width="900" height="600" loading="lazy"></div>
+      </div>
+      <div class="tab-panel" id="p3">
+        <div class="panel-copy">
+          <h3>Decisions backed by data</h3>
+          <p>Get real-time visibility into business performance with comprehensive analytics and customizable reports.</p>
+          <ul class="checks"><li>Real-time dashboards</li><li>Custom reports</li><li>Performance metrics</li><li>Predictive analytics</li></ul>
+        </div>
+        <div class="panel-img"><img src="assets/Analytics (2).webp" alt="Analytics dashboard" width="900" height="600" loading="lazy"></div>
+      </div>
+      <div class="tab-panel" id="p4">
+        <div class="panel-copy">
+          <h3>Let routine work run itself</h3>
+          <p>Create workflows that handle repetitive tasks so your team can stay focused on selling.</p>
+          <ul class="checks"><li>Visual workflow builder</li><li>Triggered actions</li><li>Email automation</li><li>Task assignment rules</li></ul>
+        </div>
+        <div class="panel-img"><img src="assets/Analytics (3).webp" alt="Automation builder" width="900" height="600" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section">
+  <div class="container">
+    <header class="section-head reveal">
+      <h2>Up and running <em class="accent">in minutes</em></h2>
+      <p>Less training time, faster results</p>
+    </header>
+    <ol class="steps">
+      <li class="reveal"><span class="step-num">1</span><h3>Sign up free</h3><p>Start your 14-day trial. No credit card, no setup fee.</p></li>
+      <li class="reveal"><span class="step-num">2</span><h3>Import your contacts</h3><p>Bring your customer data in and connect your email and calendar.</p></li>
+      <li class="reveal"><span class="step-num">3</span><h3>Close more deals</h3><p>Track your pipeline, automate follow-ups and watch growth in real time.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section section-alt" id="testimonials">
+  <div class="container">
+    <header class="section-head reveal">
+      <h2>What our customers <em class="accent">say</em></h2>
+      <p>Hear from businesses using CRMi to drive growth</p>
+    </header>
+    <div class="testi-grid">
+      <figure class="card testi reveal">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“CRMi has transformed how we manage customer relationships. The interface is intuitive and the support team is fantastic.”</blockquote>
+        <figcaption><span class="avatar">JD</span><div><strong>Jane Doe</strong><small>CEO, Tech Startup</small></div></figcaption>
+      </figure>
+      <figure class="card testi reveal">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“The best investment we made this year. Our sales team productivity increased by 40% within the first month.”</blockquote>
+        <figcaption><span class="avatar">MS</span><div><strong>Michael Smith</strong><small>Sales Director, Enterprise Co.</small></div></figcaption>
+      </figure>
+      <figure class="card testi reveal">
+        <div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“Outstanding customer service and continuous improvements. CRMi truly listens to user feedback.”</blockquote>
+        <figcaption><span class="avatar">SJ</span><div><strong>Sarah Johnson</strong><small>Marketing Manager, Growth Inc.</small></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section" id="pricing">
+  <div class="container">
+    <header class="section-head reveal">
+      <h2>Simple, <em class="accent">transparent</em> pricing</h2>
+      <p>Choose the plan that fits. All plans include a 14-day free trial.</p>
+    </header>
+    <div class="pricing-grid">
+      <article class="card price reveal">
+        <h3>Starter</h3><p class="muted">Perfect for small teams</p>
+        <p class="amount">$49<span>/month</span></p><p class="muted small">Billed annually: $588/year</p>
+        <ul class="plan">
+          <li>Up to 5 users</li><li>Basic contact management</li><li>Simple sales pipeline</li><li>Email integration</li><li>Basic reporting</li>
+          <li class="off">Advanced analytics</li><li class="off">Custom integrations</li><li class="off">API access</li>
+        </ul>
+        <a href="dashboard.html" class="btn btn-secondary btn-block">Get Started</a>
+      </article>
+      <article class="card price featured reveal">
+        <span class="badge">Most popular</span>
+        <h3>Professional</h3><p class="muted">For growing companies</p>
+        <p class="amount">$99<span>/month</span></p><p class="muted small">Billed annually: $1,188/year</p>
+        <ul class="plan">
+          <li>Up to 25 users</li><li>Advanced contact management</li><li>Unlimited sales pipeline</li><li>Email + SMS integration</li><li>Advanced reporting</li><li>Advanced analytics</li><li>Custom integrations</li>
+          <li class="off">API access</li>
+        </ul>
+        <a href="dashboard.html" class="btn btn-primary btn-block">Start Free Trial</a>
+      </article>
+      <article class="card price reveal">
+        <h3>Enterprise</h3><p class="muted">For large organizations</p>
+        <p class="amount">Custom</p><p class="muted small">Contact us for details</p>
+        <ul class="plan">
+          <li>Unlimited users</li><li>Enterprise contact management</li><li>Custom workflows</li><li>Multi-channel integration</li><li>Custom reporting</li><li>Advanced analytics</li><li>Custom integrations</li><li>Full API access</li>
+        </ul>
+        <a href="#contact" class="btn btn-secondary btn-block">Contact Sales</a>
+      </article>
+    </div>
+    <p class="trust-row">🔒 256-bit encryption · GDPR compliant · SOC 2 certified · No setup fees</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-alt" id="faq">
+  <div class="container narrow">
+    <header class="section-head reveal">
+      <h2>Frequently asked <em class="accent">questions</em></h2>
+    </header>
+    <div class="faq">
+      <details open><summary>Do you offer a free trial?</summary><p>Yes. All plans include a 14-day free trial, and no credit card is required to get started.</p></details>
+      <details><summary>Can I change my plan anytime?</summary><p>Yes, you can upgrade or downgrade at any time. Changes take effect immediately.</p></details>
+      <details><summary>Is there a setup fee?</summary><p>No. There are no setup fees on any plan, you only pay for the subscription.</p></details>
+      <details><summary>What payment methods do you accept?</summary><p>All major credit cards and bank transfers. Custom payment terms can be arranged for Enterprise customers.</p></details>
+      <details><summary>Do you offer discounts for annual billing?</summary><p>Yes, save 15% when you pay annually instead of monthly.</p></details>
+      <details><summary>What kind of support do you provide?</summary><p>All plans include email support. Professional and Enterprise plans add chat and phone support.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA + CONTACT -->
+<section class="cta" id="contact">
+  <div class="container cta-grid">
+    <div class="cta-copy">
+      <h2>Ready to transform your <em class="accent">customer relationships?</em></h2>
+      <p>Join thousands of businesses already using CRMi to drive growth. Start free, or send us a message and we’ll reply within 24 hours.</p>
+      <ul class="contact-list">
+        <li>📧 support@crmi.com</li>
+        <li>📞 +1 (555) 123-4567 · Mon–Fri, 9AM–6PM EST</li>
+        <li>📍 123 Business Avenue, San Francisco, CA 94105</li>
+      </ul>
+    </div>
+    <!-- Replace the action with your backend endpoint when ready -->
+    <form class="contact-form" action="mailto:support@crmi.com" method="post" enctype="text/plain">
+      <h3>Send us a message</h3>
+      <div class="field"><label for="cName">Full name</label><input id="cName" name="name" type="text" autocomplete="name" required></div>
+      <div class="field"><label for="cEmail">Work email</label><input id="cEmail" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="cSubject">Subject</label>
+        <select id="cSubject" name="subject"><option>Sales Inquiry</option><option>Support Request</option><option>Partnership</option><option>Feedback</option><option>Other</option></select></div>
+      <div class="field"><label for="cMsg">Message</label><textarea id="cMsg" name="message" rows="4" required></textarea></div>
+      <button type="submit" class="btn btn-primary btn-lg btn-block">Send message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><a href="#top" class="brand brand-light">CRMi</a><p class="footer-tag">Customer relationship management that feels effortless.</p></div>
+      <div><h4>Product</h4><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#product">Product tour</a></div>
+      <div><h4>Company</h4><a href="#testimonials">Customers</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+      <div><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2024 CRMi. All rights reserved.</p><p><a href="#">Twitter</a> · <a href="#">LinkedIn</a> · <a href="#">Facebook</a></p></div>
+  </div>
+</footer>
+
+<a class="to-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+</html>
